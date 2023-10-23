@@ -40,6 +40,9 @@
       return (
         <div className='page-container'>
         <div className='container'>
+          {
+            <h1 style={{textAlign:"center"}}>Flash Quiz</h1>
+          }
           <FlashcardList flashcards={flashcards} />
         </div>
       </div>
