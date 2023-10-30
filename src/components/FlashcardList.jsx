@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Flashcard from './Flashcard';
 
-export default function FlashcardList({ flashcards }) {
+  const FlashcardList = ({flashcards}) => {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
 
   const NextCard = () => {
@@ -31,6 +31,8 @@ export default function FlashcardList({ flashcards }) {
     </div>
   );
 }
+
+export default FlashcardList;
 
 
 

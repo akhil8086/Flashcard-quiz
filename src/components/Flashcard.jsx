@@ -1,7 +1,8 @@
 
 import React, { useState } from 'react';
 
-export default function Flashcard({ flashcard }) {
+
+  const Flashcard = ({flashcard}) => {
   const [flip, setFlip] = useState(false);
 
   const handleCardClick = () => {
@@ -22,4 +23,5 @@ export default function Flashcard({ flashcard }) {
   );
 }
 
+export default Flashcard;
 

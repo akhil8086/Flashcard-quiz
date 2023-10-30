@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import FlashcardList from './FlashcardList';
 import axios from 'axios';
 
-function Home() {
+const Home = () => {
     const [flashcards, setFlashcards] = useState([]);
 
       useEffect(() => {
